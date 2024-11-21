@@ -12,6 +12,11 @@ func caculos(n1, n2 int8) (int8, int8) {
 	return soma, subtracao
 }
 
+func mult(n1, n2 int8) int8 {
+	multi := n1 * n2
+	return multi
+}
+
 func main() {
 	soma := somar(10, 20)
 	fmt.Println(soma)
@@ -20,6 +25,9 @@ func main() {
 		fmt.Println(txt)
 		return txt
 	}
+
+	multi := mult(5, 2)
+	fmt.Println(multi)
 
 	resultado := f("Texo da função 1")
 	fmt.Println(resultado)

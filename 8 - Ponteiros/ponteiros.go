@@ -21,7 +21,7 @@ func main() {
 	pon = &va1
 
 	fmt.Println(va1, pon) // Se colocar um * na frente da variavel do poteiro
-	// Ele mostra o valor normal, é uma dedsreferenciação
+	// Ele mostra o valor normal, é uma desreferenciação
 
 	var va2 int
 	var pont *int //ponteiro com valor nulo
